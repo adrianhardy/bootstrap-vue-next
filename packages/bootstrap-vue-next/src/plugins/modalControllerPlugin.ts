@@ -53,7 +53,6 @@ export default {
     }) => {
       const _promise = buildPromise()
       const _self = Symbol()
-
       modals.value = [
         ...modals.value,
         computed(() => ({
